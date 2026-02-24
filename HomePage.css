@@ -1,0 +1,210 @@
+body{
+    background-color: #F0F0F6;
+}
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+justify-content: space-around
+
+}
+h1{
+    color: #000000;
+    font-size: 48px;
+font-weight: 700;
+
+}
+.highlight{
+    color: #FFB400;
+}
+.p-head{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+}
+.hire-button{
+    background-color: #FFB400;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 154px;
+    height: 51px;
+}
+.services {
+  padding: 80px 0;
+  text-align: center;
+}
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.services > div:first-child p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.services-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 80%;
+  margin: auto;
+}
+
+.service-item {
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.service-item button {
+  background-color: #fafafa;
+  color: #FFB400;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.Portfolio {
+    padding: 60px 0;
+    text-align: center;
+}
+.Portfolio h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.Portfolio > div:first-child p {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  width: 80%;
+  margin: auto;
+}
+.portfolio-items img {
+    width:350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.info {
+      padding: 80px 0;
+text-align: center;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  width: 75%;
+  margin: auto;
+}
+.info h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.form-info form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.form-info label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-info input,
+.form-info textarea {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  background: #eee;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form-info textarea {
+  resize: none;
+}
+
+.form-info button {
+  background: orange;
+  border: none;
+  border-radius: 2px;
+  padding: 12px 25px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-info button:hover {
+  background: #e69500;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ width: 80%;
+margin: auto;
+
+}
+.contact-item {
+  background: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.contact-item img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.contact-item p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.contact-item a {
+  color: #777;
+  text-decoration: none;
+}
+.Logos {
+  background: #f3f3f3;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.Logos img {
+  margin: 0 50px;
+  opacity: 0.7;
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #777;
+  background: #f3f3f3;
+}
